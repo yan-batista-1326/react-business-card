@@ -16,7 +16,7 @@ export default function Info() {
 
                 <div className='profileContainer--buttons'>
                     <button className='btn emailButton'><i class="fa-solid fa-envelope"></i> Email</button>
-                    <button className='btn linkedInButton'><i class="fa-brands fa-linkedin"></i> LinkedIn</button>
+                    <button className='btn linkedInButton'><i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/yan-batista-de-souza-barreto/" target="_blank" rel="noreferrer">LinkedIn</a></button>
                 </div>
             </div>
         </div>

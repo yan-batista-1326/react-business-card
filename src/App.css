@@ -73,6 +73,10 @@ body {
 .btn > i {
   margin-right: 8px;
 }
+.btn > a {
+  color: #FFF;
+  text-decoration: none;
+}
 .emailButton {
   background-color: #FFF;
   border: 1px solid #D1D5DB;
