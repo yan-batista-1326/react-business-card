@@ -1,38 +1,85 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 1px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  height: 100vh;
+  background-color: #23252C;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.infoContainer {
+  background-color: #1A1B21;
+  max-width: fit-content;
   color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.infoContainer--photo {
+  width: 317px;
+  height: 317px;
+  border-radius: 10px 10px 0 0;
 }
 
-.App-link {
-  color: #61dafb;
+.profileContainer {
+  margin: 20px 0;
+}
+.profileContainer--name > * {
+  margin-bottom: 10px;
+}
+.profileContainer--name > h1 {
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+.profileContainer--name > h3 {
+  font-size: 12.8px;
+  font-weight: 400;
+  color: #F3BF99;
+}
+.profileContainer--name > p {
+  font-size: 10.24px;
+  font-weight: 400;
+  color: #F5F5F5;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.profileContainer--buttons {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+.btn {
+  color: #1E1F26;
+  width: 115px;
+  height: 34px;
+  
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.btn > i {
+  margin-right: 8px;
+}
+.emailButton {
+  background-color: #FFF;
+  border: 1px solid #D1D5DB;
+  margin-right: 15px;
+}
+.linkedInButton {
+  background-color: #5093E2;
+  border: 1px solid #000;
+  color: #FFF;
 }
