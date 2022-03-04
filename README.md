@@ -1,6 +1,6 @@
 # Business Card Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) for the freeCodeCamp React Course [2022].
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) for the [freeCodeCamp React Course 2022](https://youtu.be/bMknfKXIFA8).
 
 <div align="center">
     <img src="./src//images/business-card.png" alt="Project screenshot">
