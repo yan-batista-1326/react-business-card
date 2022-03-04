@@ -2,7 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) for the freeCodeCamp React Course [2022].
 
-![Project screenshot](./src//images/business-card.png)
+<div align="center">
+    <img src="./src//images/business-card.png" alt="Project screenshot">
+</div>
 
 # Running the project
 ### `npm start`
